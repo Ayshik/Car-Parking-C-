@@ -18,7 +18,7 @@ namespace CarParkingManagementSystem.Models
         SqlConnection con;
         public Releaseparker()
         {
-            con = new SqlConnection(@"Data Source=desktop-mv1lceo\sqlaysh;Initial Catalog=parkori;Integrated Security=True");
+            con = new SqlConnection(@"Data Source=desktop-mv1lceo\sqlaysh;Initial Catalog=Parkit;Integrated Security=True");
             if (con.State == ConnectionState.Closed)
             {
                 con.Open();

@@ -63,6 +63,7 @@
             this.button6.TabIndex = 13;
             this.button6.Text = "Logout";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -127,6 +128,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "ParkerDashBoard";
             this.Text = "ParkerDashBoard";
+            this.Load += new System.EventHandler(this.ParkerDashBoard_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

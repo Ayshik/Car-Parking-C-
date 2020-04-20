@@ -35,8 +35,8 @@
             this.OwnerSignup = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.parkerUname = new System.Windows.Forms.TextBox();
-            this.parkerPass = new System.Windows.Forms.TextBox();
+            this.ownerUname = new System.Windows.Forms.TextBox();
+            this.ownerPass = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -68,6 +68,7 @@
             this.button1.TabIndex = 38;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
@@ -113,23 +114,23 @@
             this.pictureBox2.TabIndex = 34;
             this.pictureBox2.TabStop = false;
             // 
-            // parkerUname
+            // ownerUname
             // 
-            this.parkerUname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkerUname.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.parkerUname.Location = new System.Drawing.Point(327, 186);
-            this.parkerUname.Name = "parkerUname";
-            this.parkerUname.Size = new System.Drawing.Size(171, 22);
-            this.parkerUname.TabIndex = 33;
+            this.ownerUname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ownerUname.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.ownerUname.Location = new System.Drawing.Point(327, 186);
+            this.ownerUname.Name = "ownerUname";
+            this.ownerUname.Size = new System.Drawing.Size(171, 22);
+            this.ownerUname.TabIndex = 33;
             // 
-            // parkerPass
+            // ownerPass
             // 
-            this.parkerPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkerPass.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.parkerPass.Location = new System.Drawing.Point(327, 260);
-            this.parkerPass.Name = "parkerPass";
-            this.parkerPass.Size = new System.Drawing.Size(171, 22);
-            this.parkerPass.TabIndex = 32;
+            this.ownerPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ownerPass.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.ownerPass.Location = new System.Drawing.Point(327, 260);
+            this.ownerPass.Name = "ownerPass";
+            this.ownerPass.Size = new System.Drawing.Size(171, 22);
+            this.ownerPass.TabIndex = 32;
             // 
             // label2
             // 
@@ -175,8 +176,8 @@
             this.Controls.Add(this.OwnerSignup);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.parkerUname);
-            this.Controls.Add(this.parkerPass);
+            this.Controls.Add(this.ownerUname);
+            this.Controls.Add(this.ownerPass);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Name = "OwnerLogin";
@@ -198,8 +199,8 @@
         private System.Windows.Forms.Button OwnerSignup;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.TextBox parkerUname;
-        private System.Windows.Forms.TextBox parkerPass;
+        private System.Windows.Forms.TextBox ownerUname;
+        private System.Windows.Forms.TextBox ownerPass;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;

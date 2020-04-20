@@ -29,5 +29,29 @@ namespace CarParkingManagementSystem
             ol.Visible = true;
             this.Visible = false;
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ParkerLogin ol = new ParkerLogin();
+            ol.Visible = true;
+            this.Visible = false;
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AdminLogin ol = new AdminLogin();
+            ol.Visible = true;
+            this.Visible = false;
+        }
     }
 }
