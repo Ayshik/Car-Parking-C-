@@ -1,0 +1,15 @@
+C:\Users\saifm\source\repos\CarParkingManagementSystem\bin\Debug\CarParkingManagementSystem.exe.config
+C:\Users\saifm\source\repos\CarParkingManagementSystem\bin\Debug\CarParkingManagementSystem.exe
+C:\Users\saifm\source\repos\CarParkingManagementSystem\bin\Debug\CarParkingManagementSystem.pdb
+C:\Users\saifm\source\repos\CarParkingManagementSystem\obj\Debug\CarParkingManagementSystem.csprojAssemblyReference.cache
+C:\Users\saifm\source\repos\CarParkingManagementSystem\obj\Debug\CarParkingManagementSystem.Home.resources
+C:\Users\saifm\source\repos\CarParkingManagementSystem\obj\Debug\CarParkingManagementSystem.OwnerProfile.resources
+C:\Users\saifm\source\repos\CarParkingManagementSystem\obj\Debug\CarParkingManagementSystem.OwnweDashBoard.resources
+C:\Users\saifm\source\repos\CarParkingManagementSystem\obj\Debug\CarParkingManagementSystem.ParkerDashBoard.resources
+C:\Users\saifm\source\repos\CarParkingManagementSystem\obj\Debug\CarParkingManagementSystem.Registration.resources
+C:\Users\saifm\source\repos\CarParkingManagementSystem\obj\Debug\CarParkingManagementSystem.SignUpOwner.resources
+C:\Users\saifm\source\repos\CarParkingManagementSystem\obj\Debug\CarParkingManagementSystem.SignUpParker.resources
+C:\Users\saifm\source\repos\CarParkingManagementSystem\obj\Debug\CarParkingManagementSystem.csproj.GenerateResource.cache
+C:\Users\saifm\source\repos\CarParkingManagementSystem\obj\Debug\CarParkingManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\saifm\source\repos\CarParkingManagementSystem\obj\Debug\CarParkingManagementSystem.exe
+C:\Users\saifm\source\repos\CarParkingManagementSystem\obj\Debug\CarParkingManagementSystem.pdb
