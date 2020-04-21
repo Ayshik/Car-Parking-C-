@@ -66,3 +66,31 @@ C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingMana
 C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.AdminDashboard.resources
 C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.Requests.resources
 C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.UpdateSpace.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\bin\Debug\CarParkingManagementSystem.exe.config
+F:\Media\Class Documents\GitHub\Car-Parking-C-\bin\Debug\CarParkingManagementSystem.exe
+F:\Media\Class Documents\GitHub\Car-Parking-C-\bin\Debug\CarParkingManagementSystem.pdb
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.csprojAssemblyReference.cache
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.AdminDashboard.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.Release.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.Requests.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.AdminLogin.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Booking.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.ChatBox.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.CurrentStatus.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.History.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Home.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.OwnerLogin.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.OwnerProfile.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.OwnweDashBoard.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.ParkerDashBoard.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.ParkerLogin.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Parking.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.PerkerProfile.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Report.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.SignUpOwner.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.SignUpParker.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.UpdateSpace.resources
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.csproj.GenerateResource.cache
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.csproj.CoreCompileInputs.cache
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.exe
+F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.pdb
