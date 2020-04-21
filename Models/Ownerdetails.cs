@@ -76,6 +76,21 @@ namespace CarParkingManagementSystem.Models
             i = cmd.ExecuteNonQuery();
             return i;
         }
+
+
+        public int ownerupdate(Ownerdetailsc u)
+        {
+            int i = 0;
+            string query = String.Format("UPDATE Loginowner SET Password='" + u.Password + "',Mobileno='" + u.mobileno + "' WHERE Userid='" + u.Userid + "'");
+            SqlCommand cmd = new SqlCommand(query, con);
+            i = cmd.ExecuteNonQuery();
+            return i;
+        }
+
+
+
+
+
     }
 }
 

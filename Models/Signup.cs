@@ -37,6 +37,17 @@ namespace CarParkingManagementSystem.Models
 
         }
 
+        public DataTable ownerfetchid(Signupc u)
+        {
+            string query = string.Format("Select Userid from Loginowner where UserName='{0}' and Password='{1}' and Email='{2}' and Mobileno='{3}'", u.username,u.Password,u.email,u.mobileno);
+            SqlCommand cmd = new SqlCommand(query, con);
+            SqlDataAdapter sa = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sa.Fill(dt);
+            //con.Close();
+            return dt;
+        }
+
 
         public int CreateAccountparker(Signupc u)
         {
@@ -48,6 +59,17 @@ namespace CarParkingManagementSystem.Models
 
             return i;
 
+        }
+
+        public DataTable Parkerfetchid(Signupc u)
+        {
+            string query = string.Format("Select Userid from Admintable where Nid='{0}'",u.nid);
+            SqlCommand cmd = new SqlCommand(query, con);
+            SqlDataAdapter sa = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sa.Fill(dt);
+            //con.Close();
+            return dt;
         }
 
         public DataTable Admintable(Parkerdetailsc u)

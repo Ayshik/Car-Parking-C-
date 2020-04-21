@@ -56,12 +56,13 @@ C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingMana
 C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.ParkerLogin.resources
 C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Parking.resources
 C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.PerkerProfile.resources
-C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.ReleaseParking.resources
 C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Report.resources
 C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.SignUpOwner.resources
 C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.SignUpParker.resources
-C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.UpdateSpace.resources
 C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.csproj.GenerateResource.cache
 C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.csproj.CoreCompileInputs.cache
 C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.exe
 C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.pdb
+C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.AdminDashboard.resources
+C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.Requests.resources
+C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.UpdateSpace.resources

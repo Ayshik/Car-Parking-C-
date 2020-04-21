@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CarParkingManagementSystem
+namespace CarParkingManagementSystem.Views
 {
-    public partial class ReleaseParking : Form
+    public partial class Release : Form
     {
-        public ReleaseParking()
+        public Release()
         {
             InitializeComponent();
         }

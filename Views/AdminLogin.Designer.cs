@@ -31,8 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminLogin));
             this.parkerloginback = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.OwnerSignup = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.parkerUname = new System.Windows.Forms.TextBox();
@@ -50,7 +48,7 @@
             this.parkerloginback.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.parkerloginback.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.parkerloginback.ForeColor = System.Drawing.SystemColors.Info;
-            this.parkerloginback.Location = new System.Drawing.Point(239, 392);
+            this.parkerloginback.Location = new System.Drawing.Point(241, 397);
             this.parkerloginback.Name = "parkerloginback";
             this.parkerloginback.Size = new System.Drawing.Size(75, 23);
             this.parkerloginback.TabIndex = 50;
@@ -62,36 +60,13 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.button1.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.button1.Location = new System.Drawing.Point(319, 322);
+            this.button1.Location = new System.Drawing.Point(319, 339);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(171, 23);
             this.button1.TabIndex = 49;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.label3.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(362, 392);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 18);
-            this.label3.TabIndex = 48;
-            this.label3.Text = "Not Registered?";
-            // 
-            // OwnerSignup
-            // 
-            this.OwnerSignup.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.OwnerSignup.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OwnerSignup.ForeColor = System.Drawing.SystemColors.Info;
-            this.OwnerSignup.Location = new System.Drawing.Point(463, 392);
-            this.OwnerSignup.Name = "OwnerSignup";
-            this.OwnerSignup.Size = new System.Drawing.Size(75, 23);
-            this.OwnerSignup.TabIndex = 47;
-            this.OwnerSignup.Text = "Sign Up";
-            this.OwnerSignup.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox3
             // 
@@ -174,8 +149,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.parkerloginback);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.OwnerSignup);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.parkerUname);
@@ -184,6 +157,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "AdminLogin";
             this.Text = "AdminLogin";
+            this.Load += new System.EventHandler(this.AdminLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -196,8 +170,6 @@
 
         private System.Windows.Forms.Button parkerloginback;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button OwnerSignup;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox parkerUname;

@@ -35,5 +35,27 @@ namespace CarParkingManagementSystem
             ol.Visible = true;
             this.Visible = false;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            CurrentStatus c = new CurrentStatus(label1.Text);
+            this.Visible = false;
+            c.Visible = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OwnerProfile c = new OwnerProfile(label1.Text);
+            this.Visible = false;
+            c.Visible = true;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            UpdateSpace i = new UpdateSpace(label1.Text);
+            this.Visible = false;
+            i.Visible = true;
+        }
     }
 }

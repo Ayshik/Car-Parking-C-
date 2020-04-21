@@ -69,5 +69,12 @@ namespace CarParkingManagementSystem.Views
 
             }
         }
+
+        private void OwnerSignup_Click(object sender, EventArgs e)
+        {
+            SignUpParker c = new SignUpParker();
+            this.Visible = false;
+            c.Visible = true;
+        }
     }
 }

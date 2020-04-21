@@ -93,6 +93,7 @@
             this.OwnerSignup.TabIndex = 36;
             this.OwnerSignup.Text = "Sign Up";
             this.OwnerSignup.UseVisualStyleBackColor = false;
+            this.OwnerSignup.Click += new System.EventHandler(this.OwnerSignup_Click);
             // 
             // pictureBox3
             // 

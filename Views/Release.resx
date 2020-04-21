@@ -117,10 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label4.Text" xml:space="preserve">
-    <value>If you press stop service button then your service for this app will no longer available
-                                   You can start your service by pressing start button
-                                                                Thank you!!
-</value>
-  </data>
 </root>
