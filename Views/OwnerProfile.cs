@@ -71,9 +71,9 @@ namespace CarParkingManagementSystem
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (textBox11.Text == "" && textBox11.Text != textBox7.Text)
+            if (textBox11.Text != textBox7.Text)
             {
-                MessageBox.Show("please Check your Password");
+                MessageBox.Show("please Check your Password ");
             }
             else
             {
@@ -81,7 +81,7 @@ namespace CarParkingManagementSystem
                 {
                     odc.Userid = label1.Text;
                     odc.mobileno = textBox4.Text;
-                    odc.Password = textBox11.Text;
+                    odc.Password = textBox7.Text;
 
 
                     int w = od.ownerupdate(odc);
@@ -96,7 +96,7 @@ namespace CarParkingManagementSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox11.Text == "" && textBox11.Text != textBox7.Text)
+            if ( textBox11.Text != textBox7.Text)//jodi password field khali thake ar ager pass er sathe jodi input pass na mele to..
             {
                 MessageBox.Show("please Check your Password");
             }

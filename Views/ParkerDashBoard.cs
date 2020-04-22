@@ -33,5 +33,26 @@ namespace CarParkingManagementSystem
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Parking ol = new Parking(label1.Text);
+            ol.Visible = true;
+            this.Visible = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            PerkerProfile ol = new PerkerProfile(label1.Text);
+            ol.Visible = true;
+            this.Visible = false;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Release ol = new Release(label1.Text);
+            ol.Visible = true;
+            this.Visible = false;
+        }
     }
 }

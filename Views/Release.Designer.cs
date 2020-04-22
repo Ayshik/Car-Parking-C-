@@ -50,12 +50,13 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(243, 311);
+            this.button2.Location = new System.Drawing.Point(86, 356);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 15;
             this.button2.Text = "Back";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label13
             // 
@@ -185,12 +186,13 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(617, 299);
+            this.button1.Location = new System.Drawing.Point(610, 356);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "Release";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel1
             // 
@@ -224,6 +226,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Release";
             this.Text = "Release";
+            this.Load += new System.EventHandler(this.Release_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

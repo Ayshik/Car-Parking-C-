@@ -87,7 +87,16 @@ namespace CarParkingManagementSystem.Models
             return i;
         }
 
-
+        public DataTable ownerdetails(Ownerdetailsc u)
+        {
+            string query = string.Format("Select * from Loginowner");
+            SqlCommand cmd = new SqlCommand(query, con);
+            SqlDataAdapter sa = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sa.Fill(dt);
+            //con.Close();
+            return dt;
+        }
 
 
 

@@ -28,5 +28,19 @@ namespace CarParkingManagementSystem.Views
             ol.Visible = true;
             this.Visible = false;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Requests ol = new Requests();
+            ol.Visible = true;
+            this.Visible = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Allusers ol = new Allusers();
+            ol.Visible = true;
+            this.Visible = false;
+        }
     }
 }

@@ -11,51 +11,47 @@ using CarParkingManagementSystem.Models;
 using CarParkingManagementSystem.Controller;
 using CarParkingManagementSystem.Views;
 
-namespace CarParkingManagementSystem
+namespace CarParkingManagementSystem.Views
 {
-    public partial class Parking : Form
+    public partial class Allusers : Form
     {
-        public Parking(string uid)
+        public Allusers()
         {
             InitializeComponent();
-            label10.Text = uid;
         }
+        Parkerdetails pd = new Parkerdetails();
+        Parkerdetailsc pdc = new Parkerdetailsc();
         Ownerdetails od = new Ownerdetails();
         Ownerdetailsc odc = new Ownerdetailsc();
         DataTable dt = new DataTable();
-
-        private void Parking_Load(object sender, EventArgs e)
+        private void Allusers_Load(object sender, EventArgs e)
         {
-            dt = od.Ownerdetailsall(odc);
-            dataGridView1.DataSource = dt;
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            ParkerDashBoard pd = new ParkerDashBoard(label10.Text);
-            pd.Visible = true;
-            this.Visible = false;
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            odc.block = comboBox2.Text;
-
-            dt = od.Ownersearch(odc);
+           
+            dt = pd.perkerdetails(pdc);
             dataGridView1.DataSource = dt;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Booking b = new Booking(label10.Text);
-            b.Visible = true;
-            this.Visible = false;
+
+            label2.Text = "Owner Details";
+            dt = od.ownerdetails(odc);
+            dataGridView1.DataSource = dt;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            label2.Text = "Parker Details";
+            dt = pd.perkerdetails(pdc);
+            dataGridView1.DataSource = dt;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            dt = od.Ownerdetailsall(odc);
-            dataGridView1.DataSource = dt;
+            AdminDashboard ol = new AdminDashboard();
+            ol.Visible = true;
+            this.Visible = false;
         }
     }
 }

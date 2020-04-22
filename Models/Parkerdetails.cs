@@ -47,7 +47,16 @@ namespace CarParkingManagementSystem.Models
             return i;
         }
 
-
+        public DataTable perkerdetails(Parkerdetailsc u)
+        {
+            string query = string.Format("Select * from Loginparker");
+            SqlCommand cmd = new SqlCommand(query, con);
+            SqlDataAdapter sa = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sa.Fill(dt);
+            //con.Close();
+            return dt;
+        }
 
 
 
