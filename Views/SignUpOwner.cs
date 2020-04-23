@@ -80,9 +80,35 @@ namespace CarParkingManagementSystem
             }
 
 
+            {
+                textBoxUname.Text = "";
+                textBoxPass.Text = "";
+                textBoxEmail.Text = "";
+                textBoxMobile.Text = "";
+                comboBoxBlock.Text = "";
+                comboBoxRoad.Text = "";
+                textBoxHouse.Text = "";
+                numericUpDown1.Text = "";
 
 
 
+
+
+
+
+            }
+
+
+
+        }
+
+        private void textBoxPass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxEmail_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

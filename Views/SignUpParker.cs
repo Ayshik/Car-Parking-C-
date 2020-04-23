@@ -40,7 +40,7 @@ namespace CarParkingManagementSystem
         {
             if (textBoxUname.Text == "" || textBoxPass.Text == "" || textBoxEmail.Text == "" || textBoxMobile.Text == "" || textBoxNid.Text == "")
             {
-                MessageBox.Show("please fill all of your information");
+                MessageBox.Show("Please fill all of your information");
             }
             else
             {
@@ -55,7 +55,7 @@ namespace CarParkingManagementSystem
                 int i = s.CreateAccountparker(u);
                 if (i > 0)
                 {
-                    MessageBox.Show("your Account is processing try to login after an hour");
+                    MessageBox.Show("Your account is processing, try to login after 20 minuites");
                     label5.Visible = true;
                     label6.Visible = true;
                 }
@@ -78,7 +78,17 @@ namespace CarParkingManagementSystem
 
             }
 
+            {
 
+                textBoxUname.Text = "";
+                textBoxPass.Text = "";
+                textBoxEmail.Text = "";
+                textBoxMobile.Text = "";
+                textBoxNid.Text = "";
+
+
+
+            }
 
 
         }

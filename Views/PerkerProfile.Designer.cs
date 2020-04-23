@@ -92,6 +92,7 @@
             // 
             this.textBox9.Location = new System.Drawing.Point(185, 186);
             this.textBox9.Name = "textBox9";
+            this.textBox9.PasswordChar = '*';
             this.textBox9.Size = new System.Drawing.Size(153, 20);
             this.textBox9.TabIndex = 15;
             // 
@@ -99,6 +100,7 @@
             // 
             this.textBox10.Location = new System.Drawing.Point(185, 143);
             this.textBox10.Name = "textBox10";
+            this.textBox10.PasswordChar = '*';
             this.textBox10.Size = new System.Drawing.Size(153, 20);
             this.textBox10.TabIndex = 16;
             // 
@@ -186,6 +188,7 @@
             // 
             this.textBox11.Location = new System.Drawing.Point(185, 103);
             this.textBox11.Name = "textBox11";
+            this.textBox11.PasswordChar = '*';
             this.textBox11.Size = new System.Drawing.Size(153, 20);
             this.textBox11.TabIndex = 17;
             // 
@@ -254,6 +257,7 @@
             // 
             this.textBox7.Location = new System.Drawing.Point(152, 186);
             this.textBox7.Name = "textBox7";
+            this.textBox7.PasswordChar = '*';
             this.textBox7.Size = new System.Drawing.Size(153, 20);
             this.textBox7.TabIndex = 13;
             // 

@@ -126,7 +126,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label10.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label10.Location = new System.Drawing.Point(265, 18);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(22, 13);
@@ -136,7 +136,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label9.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label9.Font = new System.Drawing.Font("Copperplate Gothic Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(188, 16);
             this.label9.Name = "label9";
@@ -211,9 +211,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(474, 31);
+            this.pictureBox1.Location = new System.Drawing.Point(475, 30);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(304, 303);
+            this.pictureBox1.Size = new System.Drawing.Size(299, 303);
             this.pictureBox1.TabIndex = 38;
             this.pictureBox1.TabStop = false;
             // 

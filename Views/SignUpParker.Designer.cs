@@ -109,6 +109,7 @@
             // 
             this.textBoxPass.Location = new System.Drawing.Point(142, 208);
             this.textBoxPass.Name = "textBoxPass";
+            this.textBoxPass.PasswordChar = '*';
             this.textBoxPass.Size = new System.Drawing.Size(262, 20);
             this.textBoxPass.TabIndex = 26;
             // 
@@ -186,20 +187,20 @@
             this.label5.ForeColor = System.Drawing.Color.Red;
             this.label5.Location = new System.Drawing.Point(12, 503);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(398, 15);
+            this.label5.Size = new System.Drawing.Size(426, 15);
             this.label5.TabIndex = 34;
-            this.label5.Text = "***if you cannot login after 2 hours then you have to Signup ";
+            this.label5.Text = "**if you cannot login after 20 minuites then you have to sign-up ";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(217, 529);
+            this.label6.Location = new System.Drawing.Point(107, 529);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(216, 15);
+            this.label6.Size = new System.Drawing.Size(210, 15);
             this.label6.TabIndex = 35;
-            this.label6.Text = "again with valid Information***";
+            this.label6.Text = "again with valid Information**";
             // 
             // SignUpParker
             // 

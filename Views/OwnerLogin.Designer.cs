@@ -130,6 +130,7 @@
             this.ownerPass.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.ownerPass.Location = new System.Drawing.Point(327, 260);
             this.ownerPass.Name = "ownerPass";
+            this.ownerPass.PasswordChar = '*';
             this.ownerPass.Size = new System.Drawing.Size(171, 22);
             this.ownerPass.TabIndex = 32;
             // 

@@ -54,7 +54,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Orange;
-            this.label16.Location = new System.Drawing.Point(657, 436);
+            this.label16.Location = new System.Drawing.Point(636, 436);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(31, 14);
             this.label16.TabIndex = 37;

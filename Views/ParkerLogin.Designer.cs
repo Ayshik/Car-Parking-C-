@@ -130,6 +130,7 @@
             this.parkerPass.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.parkerPass.Location = new System.Drawing.Point(327, 252);
             this.parkerPass.Name = "parkerPass";
+            this.parkerPass.PasswordChar = '*';
             this.parkerPass.Size = new System.Drawing.Size(171, 22);
             this.parkerPass.TabIndex = 21;
             // 
