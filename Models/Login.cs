@@ -18,7 +18,7 @@ namespace CarParkingManagementSystem.Models
         SqlConnection con;
         public Login()
         {
-            con = new SqlConnection(@"Data Source=DESKTOP-8DRSION;Initial Catalog=Parkit;Integrated Security=True");
+            con = new SqlConnection(@"Data Source=desktop-mv1lceo\sqlaysh;Initial Catalog=Parkit;Integrated Security=True");
             if (con.State == ConnectionState.Closed)
             {
                 con.Open();

@@ -1,6 +1,6 @@
-﻿namespace CarParkingManagementSystem
+﻿namespace CarParkingManagementSystem.Views
 {
-    partial class Report
+    partial class Reportparker
     {
         /// <summary>
         /// Required designer variable.
@@ -57,7 +57,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(507, 311);
-            this.panel1.TabIndex = 0;
+            this.panel1.TabIndex = 1;
             // 
             // button2
             // 
@@ -141,16 +141,16 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "User ID";
             // 
-            // Report
+            // Reportparker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(507, 311);
             this.Controls.Add(this.panel1);
-            this.Name = "Report";
+            this.Name = "Reportparker";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Report";
-            this.Load += new System.EventHandler(this.Report_Load);
+            this.Text = "Reportparker";
+            this.Load += new System.EventHandler(this.Reportparker_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -160,6 +160,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
@@ -168,6 +169,5 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
     }
 }

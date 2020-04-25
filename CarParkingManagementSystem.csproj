@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\Bookingc.cs" />
+    <Compile Include="Controller\Chatboxc.cs" />
     <Compile Include="Controller\Currentstatusc.cs" />
     <Compile Include="Controller\Loginc.cs" />
     <Compile Include="Controller\Ownerdetailsc.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="Controller\Releaseparkerc.cs" />
     <Compile Include="Controller\Signupc.cs" />
     <Compile Include="Models\Booking0.cs" />
+    <Compile Include="Models\Chatbox.cs" />
     <Compile Include="Models\Currentstatus.cs" />
     <Compile Include="Models\Login.cs" />
     <Compile Include="Models\Ownerdetails.cs" />
@@ -76,11 +78,29 @@
     <Compile Include="Views\Allusers.Designer.cs">
       <DependentUpon>Allusers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Chatboxowner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Chatboxowner.Designer.cs">
+      <DependentUpon>Chatboxowner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Chatboxparker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Chatboxparker.Designer.cs">
+      <DependentUpon>Chatboxparker.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Release.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\Release.Designer.cs">
       <DependentUpon>Release.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Reportparker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Reportparker.Designer.cs">
+      <DependentUpon>Reportparker.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Requests.cs">
       <SubType>Form</SubType>
@@ -203,8 +223,17 @@
     <EmbeddedResource Include="Views\Allusers.resx">
       <DependentUpon>Allusers.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Chatboxowner.resx">
+      <DependentUpon>Chatboxowner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Chatboxparker.resx">
+      <DependentUpon>Chatboxparker.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Release.resx">
       <DependentUpon>Release.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Reportparker.resx">
+      <DependentUpon>Reportparker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Requests.resx">
       <DependentUpon>Requests.cs</DependentUpon>

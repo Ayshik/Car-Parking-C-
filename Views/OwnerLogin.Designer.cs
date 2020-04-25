@@ -56,6 +56,7 @@
             this.parkerloginback.TabIndex = 39;
             this.parkerloginback.Text = "Back";
             this.parkerloginback.UseVisualStyleBackColor = false;
+            this.parkerloginback.Click += new System.EventHandler(this.parkerloginback_Click);
             // 
             // button1
             // 

@@ -97,3 +97,6 @@ F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSys
 C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.Release.resources
 C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.Allusers.resources
 F:\Media\Class Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.Allusers.resources
+C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.Chatboxowner.resources
+C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.Chatboxparker.resources
+C:\Users\ayshi\OneDrive\Documents\GitHub\Car-Parking-C-\obj\Debug\CarParkingManagementSystem.Views.Reportparker.resources

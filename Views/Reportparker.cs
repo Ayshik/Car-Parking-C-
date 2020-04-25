@@ -11,26 +11,28 @@ using CarParkingManagementSystem.Models;
 using CarParkingManagementSystem.Controller;
 using CarParkingManagementSystem.Views;
 
-namespace CarParkingManagementSystem
+namespace CarParkingManagementSystem.Views
 {
-    public partial class Report : Form
+    public partial class Reportparker : Form
     {
-        public Report(string uid)
+        public Reportparker(string uid)
         {
             InitializeComponent();
             label1.Text = uid;
         }
+
         Chatbox s = new Chatbox();
         Chatboxc u = new Chatboxc();
         DataTable dt = new DataTable();
-        private void Report_Load(object sender, EventArgs e)
+
+        private void Reportparker_Load(object sender, EventArgs e)
         {
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            OwnweDashBoard c = new OwnweDashBoard(label1.Text);
+            ParkerDashBoard c = new ParkerDashBoard(label1.Text);
             this.Visible = false;
             c.Visible = true;
         }
@@ -48,7 +50,7 @@ namespace CarParkingManagementSystem
                 u.Subject = textBox2.Text;
                 u.Message = textBox3.Text;
 
-                u.To ="ADMIN";
+                u.To = "ADMIN";
 
 
                 int i = s.Report(u);

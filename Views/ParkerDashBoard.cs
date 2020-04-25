@@ -54,5 +54,19 @@ namespace CarParkingManagementSystem
             ol.Visible = true;
             this.Visible = false;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Chatboxparker ol = new Chatboxparker(label1.Text);
+            ol.Visible = true;
+            this.Visible = false;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Reportparker ol = new Reportparker(label1.Text);
+            ol.Visible = true;
+            this.Visible = false;
+        }
     }
 }

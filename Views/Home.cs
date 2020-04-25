@@ -27,7 +27,7 @@ namespace CarParkingManagementSystem
         {
             OwnerLogin ol = new OwnerLogin();
             ol.Visible = true;
-            this.Visible = false;
+           // this.Visible = false;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -39,7 +39,7 @@ namespace CarParkingManagementSystem
         {
             ParkerLogin ol = new ParkerLogin();
             ol.Visible = true;
-            this.Visible = false;
+          //  this.Visible = false;
         }
 
         private void Home_Load(object sender, EventArgs e)
@@ -51,7 +51,7 @@ namespace CarParkingManagementSystem
         {
             AdminLogin ol = new AdminLogin();
             ol.Visible = true;
-            this.Visible = false;
+           // this.Visible = false;
         }
     }
 }
