@@ -36,12 +36,14 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
@@ -119,13 +121,24 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(209, 30);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(249, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 24);
+            this.label1.Size = new System.Drawing.Size(65, 18);
             this.label1.TabIndex = 0;
             this.label1.Text = "User ID";
             this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label6.Font = new System.Drawing.Font("Copperplate Gothic Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(89, 28);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(154, 16);
+            this.label6.TabIndex = 47;
+            this.label6.Text = "Your User ID No :";
             // 
             // OwnweDashBoard
             // 
@@ -134,6 +147,7 @@
             this.ClientSize = new System.Drawing.Size(527, 469);
             this.Controls.Add(this.panel1);
             this.Name = "OwnweDashBoard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OwnweDashBoard";
             this.Load += new System.EventHandler(this.OwnweDashBoard_Load);
             this.panel1.ResumeLayout(false);
@@ -152,5 +166,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label6;
     }
 }

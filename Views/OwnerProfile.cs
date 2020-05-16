@@ -122,5 +122,10 @@ namespace CarParkingManagementSystem
                 else { MessageBox.Show("Confirm Password didnot match"); }
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

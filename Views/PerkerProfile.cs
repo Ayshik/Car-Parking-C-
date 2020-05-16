@@ -109,5 +109,10 @@ namespace CarParkingManagementSystem
             this.Visible = false;
             c.Visible = true;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

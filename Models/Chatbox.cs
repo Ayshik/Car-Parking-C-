@@ -17,7 +17,7 @@ namespace CarParkingManagementSystem.Models
         SqlConnection con;
         public Chatbox()
         {
-            con = new SqlConnection(@"Data Source=desktop-mv1lceo\sqlaysh;Initial Catalog=Parkit;Integrated Security=True");
+            con = new SqlConnection(@"Data Source=DESKTOP-8DRSION;Initial Catalog=Parkit;Integrated Security=True");
             if (con.State == ConnectionState.Closed)
             {
                 con.Open();
@@ -64,7 +64,7 @@ namespace CarParkingManagementSystem.Models
 
         public DataTable Singlechat(Chatboxc c)
         {
-            string query = string.Format("SELECT * from dbo.Reply WHERE [From]='ADMIN' and [To]='" + c.To + "' or  [From]='" + c.To + "' and [To]='ADMIN' order by DT DESC");
+            string query = string.Format("SELECT * from dbo.Reply WHERE [From]='ADMIN' and [To]='" + c.To + "' or  [From]='" + c.To + "' and [To]='ADMIN' order by sl DESC");
             SqlCommand cmd = new SqlCommand(query, con);
             SqlDataAdapter sa = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();

@@ -49,5 +49,12 @@ namespace CarParkingManagementSystem.Views
             this.Visible = false;
             c.Visible = true;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DeleteUsers du = new DeleteUsers();
+            this.Visible = false;
+            du.Visible = true;
+        }
     }
 }

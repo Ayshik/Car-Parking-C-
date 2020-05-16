@@ -17,7 +17,7 @@ namespace CarParkingManagementSystem.Models
         SqlConnection con;
         public Signup()
         {
-            con = new SqlConnection(@"Data Source=desktop-mv1lceo\sqlaysh;Initial Catalog=Parkit;Integrated Security=True");
+            con = new SqlConnection(@"Data Source=DESKTOP-8DRSION;Initial Catalog=Parkit;Integrated Security=True");
             if (con.State == ConnectionState.Closed)
             {
                 con.Open();
@@ -105,7 +105,22 @@ namespace CarParkingManagementSystem.Models
             return i;
         }
 
-
+        public int Deleteowner(Signupc u)
+        {
+            int i = 0;
+            string query = String.Format("Delete from Loginowner where Userid='" + u.Userid + "'");
+            SqlCommand cmd = new SqlCommand(query, con);
+            i = cmd.ExecuteNonQuery();
+            return i;
+        }
+        public int Deleteparker(Signupc u)
+        {
+            int i = 0;
+            string query = String.Format("Delete from Loginparker where Userid='" + u.Userid + "'");
+            SqlCommand cmd = new SqlCommand(query, con);
+            i = cmd.ExecuteNonQuery();
+            return i;
+        }
 
 
     }

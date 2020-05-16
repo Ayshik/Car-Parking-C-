@@ -91,8 +91,8 @@
             // 
             // parkerUname
             // 
-            this.parkerUname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkerUname.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.parkerUname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.parkerUname.ForeColor = System.Drawing.SystemColors.Desktop;
             this.parkerUname.Location = new System.Drawing.Point(319, 191);
             this.parkerUname.Name = "parkerUname";
             this.parkerUname.Size = new System.Drawing.Size(171, 22);
@@ -100,8 +100,8 @@
             // 
             // parkerPass
             // 
-            this.parkerPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkerPass.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.parkerPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.parkerPass.ForeColor = System.Drawing.SystemColors.Desktop;
             this.parkerPass.Location = new System.Drawing.Point(319, 265);
             this.parkerPass.Name = "parkerPass";
             this.parkerPass.PasswordChar = '*';
@@ -157,7 +157,9 @@
             this.Controls.Add(this.parkerPass);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AdminLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminLogin";
             this.Load += new System.EventHandler(this.AdminLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

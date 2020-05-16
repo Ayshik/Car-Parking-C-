@@ -64,46 +64,64 @@ namespace CarParkingManagementSystem.Views
 
         private void button2_Click(object sender, EventArgs e)
         {
+            if (label11.Text == ".....")
             {
-                c.username = label10.Text;
-                c.Password = label14.Text;
-                c.email = label12.Text;
-                c.mobileno = label13.Text;
-                c.Userid = label11.Text;
-                c.nid = label16.Text;
+                MessageBox.Show("Please select an user");
 
-
-                int i = od.CreateAcccountfromadmin(c);
-                if (i > 0)
-                {
-                    MessageBox.Show("Account Created for this person");
-                }
             }
-
+            else
             {
-                c.Userid = label11.Text;
-                int i = od.Deleteuser(c);
-                if (i > 0)
                 {
-                  
-                    dt = od.Admintable(odc);
-                    dataGridView1.DataSource = dt;
+                    c.username = label10.Text;
+                    c.Password = label14.Text;
+                    c.email = label12.Text;
+                    c.mobileno = label13.Text;
+                    c.Userid = label11.Text;
+                    c.nid = label16.Text;
 
+
+                    int i = od.CreateAcccountfromadmin(c);
+                    if (i > 0)
+                    {
+                        MessageBox.Show("Account Created for this person");
+                    }
                 }
 
+                {
+                    c.Userid = label11.Text;
+                    int i = od.Deleteuser(c);
+                    if (i > 0)
+                    {
 
+                        dt = od.Admintable(odc);
+                        dataGridView1.DataSource = dt;
+
+                    }
+
+
+                }
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            c.Userid = label11.Text;
-            int i = od.Deleteuser(c);
-            if (i > 0)
+            if (label11.Text == ".....")
             {
-                MessageBox.Show("Deleted");
-                dt = od.Admintable(odc);
-                dataGridView1.DataSource = dt;
+                MessageBox.Show("Please select an user");
+
+            }
+
+            else
+            {
+                c.Userid = label11.Text;
+                int i = od.Deleteuser(c);
+                if (i > 0)
+                {
+                    MessageBox.Show("Deleted");
+                    dt = od.Admintable(odc);
+                    dataGridView1.DataSource = dt;
+
+                }
 
             }
         }
